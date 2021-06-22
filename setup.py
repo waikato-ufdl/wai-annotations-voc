@@ -37,13 +37,14 @@ setup(
     author='Corey Sterling',
     author_email='coreytsterling@gmail.com',
     install_requires=[
-        "wai.annotations.core>=0.1.1"
+        "wai.annotations.core>=0.1.1",
+        "defusedxml"
     ],
     entry_points={
         "wai.annotations.plugins": [
-            # Image Object Detection Formats TODO
-            "from-voc-od=wai.annotations.voc.specifier:VOCODInputFormatSpecifier",
-            "to-voc-od=wai.annotations.voc.specifier:VOCODOutputFormatSpecifier",
+            # Image Object Detection Formats
+            "from-voc-od=wai.annotations.voc.od.specifier:VOCODInputFormatSpecifier",
+            #"to-voc-od=wai.annotations.voc.od.specifier:VOCODOutputFormatSpecifier",
         ]
     }
 )
