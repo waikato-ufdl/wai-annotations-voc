@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.0 (2021-??-??)
+1.0.0 (2021-06-22)
 ------------------
 
-- Initial release.
+- Initial release (only includes input format).
