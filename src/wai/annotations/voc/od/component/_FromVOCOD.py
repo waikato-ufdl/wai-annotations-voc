@@ -16,7 +16,7 @@ class FromVOCOD(
     ProcessorComponent[VOCODFormat, ImageObjectDetectionInstance]
 ):
     """
-    Converter from VGG annotations to internal format.
+    Converter from Pascal VOC annotations to internal format.
     """
     def process_element(
             self,

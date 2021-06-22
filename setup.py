@@ -33,7 +33,7 @@ setup(
         "wai",
         "wai.annotations"
     ],
-    version="1.0.0",
+    version="1.1.0",
     author='Corey Sterling',
     author_email='coreytsterling@gmail.com',
     install_requires=[
@@ -44,7 +44,7 @@ setup(
         "wai.annotations.plugins": [
             # Image Object Detection Formats
             "from-voc-od=wai.annotations.voc.od.specifier:VOCODInputFormatSpecifier",
-            #"to-voc-od=wai.annotations.voc.od.specifier:VOCODOutputFormatSpecifier",
+            "to-voc-od=wai.annotations.voc.od.specifier:VOCODOutputFormatSpecifier",
         ]
     }
 )

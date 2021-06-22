@@ -1,1 +1,2 @@
 from ._VOCODInputFormatSpecifier import VOCODInputFormatSpecifier
+from ._VOCODOutputFormatSpecifier import VOCODOutputFormatSpecifier
