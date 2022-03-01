@@ -5,6 +5,10 @@ wai.annotations module for dealing with Pascal VOC (visual object classes) datas
 ### FROM-YOLO-OD
 Reads image object-detection annotations in the Pascal VOC XML-format
 
+The manual is available here:
+
+https://ufdl.cms.waikato.ac.nz/wai-annotations-manual/
+
 #### Domain(s):
 - **Image Object-Detection Domain**
 
