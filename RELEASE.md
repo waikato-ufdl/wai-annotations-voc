@@ -4,6 +4,7 @@ Pypi
 Preparation:
 * increment version in `setup.py`
 * add new changelog section in `CHANGES.rst`
+* update plugin section in `README.md`
 * commit/push all changes
 
 Commands for releasing on pypi-waikato (requires twine >= 1.8.0):
